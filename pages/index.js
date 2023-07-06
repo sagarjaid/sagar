@@ -1,11 +1,6 @@
 import Head from "next/head";
-import { useState, useEffect } from "react";
 
 export default function Home() {
-  const [toggle, SetToggle] = useState(false);
-
-  useEffect(() => {}, []);
-
   return (
     <>
       <Head>
