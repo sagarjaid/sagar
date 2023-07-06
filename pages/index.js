@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sagar Jaid — Building CAREERDEKHO AI!</title>
+        <title>Sagar Jaid</title>
         <meta name="title" content="Sagar Jaid" />
         <meta
           name="description"
