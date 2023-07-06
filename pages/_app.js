@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
             gtag('js', new Date());
             gtag('config', 'G-N447S94TC5');
           `}
-          />
+          <Script/>
           <Component {...pageProps} />
         </>
     
