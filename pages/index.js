@@ -38,6 +38,8 @@ export default function Home() {
           content="Sagar Jaid, Official Website. Hustler Hacker and Hipster."
         />
         <meta property="twitter:image" content="https://sagarjaid.com/cover.png" />
+
+        <meta name="google-site-verification" content="OZcQv8cI2bp_N6Uq0pBaX5LoGZ44JJtwQZo1iVCLPig" />
       </Head>
       <main className="flex flex-col justify-center items-center h-screen gap-6 p-6">
         <div>
