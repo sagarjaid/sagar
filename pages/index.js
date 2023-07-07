@@ -67,7 +67,7 @@ export default function Home() {
               <h3 className="font-bold">SaaSblog</h3>
               <h4 className="text-[8px]">
                 Simple & Modern WordPress Blog Alternative for your SaaS
-                Startups/Bloggers/Businesses
+                Startup/Blog/Business
               </h4>
             </div>
             <img className="w-10 h-10 p-0.5 hover:scale-105" src="./link.svg" />
@@ -96,7 +96,7 @@ export default function Home() {
             <div className="flex flex-col ">
               <h3 className="font-bold">ScripAI</h3>
               <h4 className="text-[8px]">
-                100% FREE AI 100+ AI copy tools for marketers and creators. save
+                FREE 100+ AI copy-tools for marketers and content creators. save
                 $30-$60/month on copyai & jasper
               </h4>
             </div>
@@ -109,7 +109,7 @@ export default function Home() {
           >
             <img className="w-16 h-16" src="./careerdekho-logo.png" />
             <div className="flex flex-col ">
-              <h3 className="font-bold">careerdekho ai</h3>
+              <h3 className="font-bold">CareerdekhoAI</h3>
               <h4 className="text-[8px]">
                 AI Career suggestion & career discovery for students and working
                 professional
