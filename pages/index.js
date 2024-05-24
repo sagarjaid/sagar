@@ -60,7 +60,7 @@ export default function Home() {
           content='OZcQv8cI2bp_N6Uq0pBaX5LoGZ44JJtwQZo1iVCLPig'
         />
       </Head>
-      <main className="flex flex-col justify-center items-center h-screen gap-5 p-6 bg-[url('/bg.svg')]">
+      <main className="flex flex-col mt-20 mb-20 justify-center items-center gap-5 p-6 bg-[url('/bg.svg')]">
         <div>
           <img
             className='w-[120px]'
