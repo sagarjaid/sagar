@@ -60,7 +60,7 @@ export default function Home() {
           content='OZcQv8cI2bp_N6Uq0pBaX5LoGZ44JJtwQZo1iVCLPig'
         />
       </Head>
-      <main className="flex flex-col mt-20 mb-20 justify-center items-center gap-5 p-6 bg-[url('/bg.svg')]">
+      <main className="flex flex-col mt-40 mb-20 justify-center items-center gap-5 p-6 bg-[url('/bg.svg')]">
         <div>
           <img
             className='w-[120px]'
@@ -91,7 +91,7 @@ export default function Home() {
           </div>
         </div>
         <div className='flex flex-col gap-2'>
-          <a
+          {/* <a
             href='http://sagarjaid.com/cv.pdf/'
             target='_blank'
             className='flex gap-1.5 bg-white justify-around items-center max-w-sm border hover:border-gray-400 rounded-md shadow-sm p-2'>
@@ -110,7 +110,7 @@ export default function Home() {
               className='w-10 h-10 p-0.5 hover:scale-105'
               src='./link.svg'
             />
-          </a>
+          </a> */}
           <a
             href='http://scripai.com/'
             target='_blank'
