@@ -70,7 +70,7 @@ export default function Home() {
         <div className='flex flex-col justify-center items-center text-center gap-1 '>
           <h1 className='text-xl font-extrabold'>Sagar Jaid</h1>
           <h2>Software Engineer & Indie Hacker</h2>
-          <div className='flex justify-center gap-4 mt-1 items-center'>
+          {/* <div className='flex justify-center gap-4 mt-1 items-center'>
             <a
               href='https://www.linkedin.com/in/sagarjaid/'
               target='_blank'>
@@ -88,7 +88,7 @@ export default function Home() {
                 src='./twitter.png'
               />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className='flex flex-col gap-2'>
           {/* <a
