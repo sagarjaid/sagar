@@ -14,6 +14,8 @@ export default function Home() {
           content='Sagar Jaid, Official Website. Hustler Hacker and Hipster.'
         />
 
+        <meta name="google-site-verification" content="OZcQv8cI2bp_N6Uq0pBaX5LoGZ44JJtwQZo1iVCLPig" />
+
         <meta
           property='og:type'
           content='website'
