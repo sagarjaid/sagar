@@ -14,7 +14,10 @@ export default function Home() {
           content='Sagar Jaid, Official Website. Hustler Hacker and Hipster.'
         />
 
-        <meta name="google-site-verification" content="OZcQv8cI2bp_N6Uq0pBaX5LoGZ44JJtwQZo1iVCLPig" />
+        <meta
+          name='google-site-verification'
+          content='OZcQv8cI2bp_N6Uq0pBaX5LoGZ44JJtwQZo1iVCLPig'
+        />
 
         <meta
           property='og:type'
@@ -62,17 +65,17 @@ export default function Home() {
           content='OZcQv8cI2bp_N6Uq0pBaX5LoGZ44JJtwQZo1iVCLPig'
         />
       </Head>
-      <main className="flex flex-col mt-40 mb-20 justify-center items-center gap-5 p-6 bg-[url('/bg.svg')]">
+      <main className="flex flex-col my-20 justify-center items-center gap-5 p-6   bg-[url('/bg.svg')]">
         <div>
           <img
-            className='w-[120px]'
-            src='./sagar.png'
+            className='w-[120px] rounded-full'
+            src='./sagar-3.png'
           />
         </div>
         <div className='flex flex-col justify-center items-center text-center gap-1 '>
           <h1 className='text-xl font-extrabold'>Sagar Jaid</h1>
           <h2>Software Engineer & Indie Hacker</h2>
-          {/* <div className='flex justify-center gap-4 mt-1 items-center'>
+          <div className='flex justify-center gap-4 mt-1 items-center'>
             <a
               href='https://www.linkedin.com/in/sagarjaid/'
               target='_blank'>
@@ -90,7 +93,7 @@ export default function Home() {
                 src='./twitter.png'
               />
             </a>
-          </div> */}
+          </div>
         </div>
         <div className='flex flex-col gap-2'>
           {/* <a
@@ -154,11 +157,51 @@ export default function Home() {
             />
           </a>
           <a
+            href='https://buysellyt.com/'
+            target='_blank'
+            className='flex gap-1.5 bg-white justify-around items-center max-w-sm border hover:border-gray-400 rounded-md shadow-sm p-2'>
+            <img
+              className='w-16 h-16'
+              src='./buysellyt.png'
+            />
+            <div className='flex flex-col '>
+              <h3 className='font-bold'>buySellyt</h3>
+              <h4 className='text-[8px]'>
+                A Simple Modern YouTube Channel buying and selling marketplace
+                for everyone
+              </h4>
+            </div>
+            <img
+              className='w-10 h-10 p-0.5 hover:scale-105'
+              src='./link.svg'
+            />
+          </a>
+          <a
+            href='http://visainterviewai.com/'
+            target='_blank'
+            className='flex gap-1.5 bg-white justify-around items-center max-w-sm border hover:border-gray-400 rounded-md shadow-sm p-2'>
+            <img
+              className='w-16 h-16'
+              src='./visainterviewai.png'
+            />
+            <div className='flex flex-col'>
+              <h3 className='font-bold'>VisaInterviewAI</h3>
+              <h4 className='text-[8px]'>
+                Guess what I’m building after failing to secure US F1 Visa twice
+                in 2024 (AI F1 visa officer that takes mock visa interview)
+              </h4>
+            </div>
+            <img
+              className='w-10 h-10 p-0.5 hover:scale-105'
+              src='./link.svg'
+            />
+          </a>
+          {/* <a
             href='https://www.linkedin.com/in/sagarjaid/'
             target='_blank'
             className='text-center text-gray-400 hover:text-gray-500 text-xs'>
             show more
-          </a>
+          </a> */}
         </div>
         <a
           href='https://www.linkedin.com/in/sagarjaid/'
