@@ -68,13 +68,16 @@ export default function Home() {
       <main className="flex flex-col my-20 justify-center items-center gap-5 p-6   bg-[url('/bg.svg')]">
         <div>
           <img
-            className='w-[120px] rounded-full'
-            src='./sagar-3.png'
+            className='w-[140px] rounded-full'
+            src='./sagar-4.png'
           />
         </div>
         <div className='flex flex-col justify-center items-center text-center gap-1 '>
-          <h1 className='text-xl font-extrabold'>Sagar Jaid</h1>
-          <h2>Software Engineer & Indie Hacker</h2>
+          <h1 className='text-2xl font-extrabold'>Sagar Jaid</h1>
+          <h2>
+            AI Product Manager <br />
+            Software Engineer
+          </h2>
           <div className='flex justify-center gap-4 mt-1 items-center'>
             <a
               href='https://www.linkedin.com/in/sagarjaid/'
@@ -95,8 +98,8 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className='flex flex-col gap-2'>
-          {/* <a
+        <div className='flex flex-col gap-2.5 text-sm'>
+          <a
             href='http://sagarjaid.com/cv.pdf/'
             target='_blank'
             className='flex gap-1.5 bg-white justify-around items-center max-w-sm border hover:border-gray-400 rounded-md shadow-sm p-2'>
@@ -104,18 +107,18 @@ export default function Home() {
               className='w-16 h-16'
               src='./chnglog-logo.png'
             />
-            <div className='flex flex-col '>
-              <h3 className='font-bold'>My Resumne</h3>
-              <h4 className='text-[8px]'>
+            <div className='flex justify-center gap-1 flex-col'>
+              <h3 className='font-semibold'>Resume Link</h3>
+              <p className='text-[8px] leading-3'>
                 My long-term goal is to build or be part of a Product-based
                 company that can impact millions of lives.
-              </h4>
+              </p>
             </div>
             <img
               className='w-10 h-10 p-0.5 hover:scale-105'
               src='./link.svg'
             />
-          </a> */}
+          </a>
           <a
             href='http://scripai.com/'
             target='_blank'
@@ -124,12 +127,12 @@ export default function Home() {
               className='w-16 h-16'
               src='./scripai-logo.png'
             />
-            <div className='flex flex-col '>
-              <h3 className='font-bold'>ScripAI</h3>
-              <h4 className='text-[8px]'>
+            <div className='flex justify-center gap-1 flex-col'>
+              <h3 className='font-semibold'>ScripAI</h3>
+              <p className='text-[8px] leading-3'>
                 FREE 100+ AI copy-tools for marketers and content creators. save
                 $30-$60/month on copyai & jasper
-              </h4>
+              </p>
             </div>
             <img
               className='w-10 h-10 p-0.5 hover:scale-105'
@@ -144,19 +147,19 @@ export default function Home() {
               className='w-16 h-16'
               src='./careerdekho-logo.png'
             />
-            <div className='flex flex-col '>
-              <h3 className='font-bold'>CareerdekhoAI</h3>
-              <h4 className='text-[8px]'>
+            <div className='flex justify-center gap-1 flex-col'>
+              <h3 className='font-semibold'>CareerdekhoAI</h3>
+              <p className='text-[8px] leading-3'>
                 AI Career suggestion & career discovery for students and working
                 professional
-              </h4>
+              </p>
             </div>
             <img
               className='w-10 h-10 p-0.5 hover:scale-105'
               src='./link.svg'
             />
           </a>
-          <a
+          {/* <a
             href='https://buysellyt.com/'
             target='_blank'
             className='flex gap-1.5 bg-white justify-around items-center max-w-sm border hover:border-gray-400 rounded-md shadow-sm p-2'>
@@ -164,38 +167,39 @@ export default function Home() {
               className='w-16 h-16'
               src='./buysellyt.png'
             />
-            <div className='flex flex-col '>
-              <h3 className='font-bold'>buySellyt</h3>
-              <h4 className='text-[8px]'>
+            <div className='flex justify-center gap-1 flex-col'>
+              <h3 className='font-semibold'>buySellyt</h3>
+              <p className='text-[8px] leading-3'>
                 A Simple Modern YouTube Channel buying and selling marketplace
                 for everyone
-              </h4>
+              </p>
             </div>
             <img
               className='w-10 h-10 p-0.5 hover:scale-105'
               src='./link.svg'
             />
-          </a>
+          </a> */}
           <a
             href='http://visainterviewai.com/'
             target='_blank'
-            className='flex gap-1.5 bg-white justify-around items-center max-w-sm border hover:border-gray-400 rounded-md shadow-sm p-2'>
+            className='flex gap-2 bg-white justify-around items-center max-w-sm border hover:border-gray-400 rounded-md shadow-sm p-2'>
             <img
               className='w-16 h-16'
               src='./visainterviewai.png'
             />
-            <div className='flex flex-col'>
-              <h3 className='font-bold'>VisaInterviewAI</h3>
-              <h4 className='text-[8px]'>
+            <div className='flex justify-center gap-1 flex-col'>
+              <h3 className='font-semibold'>VisaInterviewAI</h3>
+              <p className='text-[8px] leading-3'>
                 Guess what I’m building after failing to secure US F1 Visa twice
                 in 2024 (AI F1 visa officer that takes mock visa interview)
-              </h4>
+              </p>
             </div>
             <img
               className='w-10 h-10 p-0.5 hover:scale-105'
               src='./link.svg'
             />
           </a>
+
           {/* <a
             href='https://www.linkedin.com/in/sagarjaid/'
             target='_blank'
