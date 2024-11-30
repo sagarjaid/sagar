@@ -75,8 +75,8 @@ export default function Home() {
         <div className='flex flex-col justify-center items-center text-center gap-1 '>
           <h1 className='text-2xl font-extrabold'>Sagar Jaid</h1>
           <h2>
-            AI Product Manager <br />
-            Software Engineer
+            Software Engineer <br />
+            Technical PM
           </h2>
           <div className='flex justify-center gap-4 mt-1 items-center'>
             <a
@@ -100,7 +100,7 @@ export default function Home() {
         </div>
         <div className='flex flex-col gap-2.5 text-sm'>
           <a
-            href='http://sagarjaid.com/cv.pdf/'
+            href='http://sagarjaid.com/cv.pdf'
             target='_blank'
             className='flex gap-1.5 bg-white justify-around items-center max-w-sm border hover:border-gray-400 rounded-md shadow-sm p-2'>
             <img
@@ -140,7 +140,7 @@ export default function Home() {
             />
           </a>
           <a
-            href='http://careerdekho.ai/'
+            href='http://careerdekhoai.com'
             target='_blank'
             className='flex gap-1.5 bg-white justify-around items-center max-w-sm border hover:border-gray-400 rounded-md shadow-sm p-2'>
             <img
