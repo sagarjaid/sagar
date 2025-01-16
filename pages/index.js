@@ -1,3 +1,5 @@
+/** @format */
+
 import Head from 'next/head';
 
 export default function Home() {
@@ -69,7 +71,7 @@ export default function Home() {
         <div>
           <img
             className='w-[140px] rounded-full'
-            src='./sagar-4.png'
+            src='./sagar-2.jpg'
           />
         </div>
         <div className='flex flex-col justify-center items-center text-center gap-1 '>
