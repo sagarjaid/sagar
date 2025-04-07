@@ -67,11 +67,11 @@ export default function Home() {
           content='OZcQv8cI2bp_N6Uq0pBaX5LoGZ44JJtwQZo1iVCLPig'
         />
       </Head>
-      <main className="flex flex-col my-20 justify-center items-center gap-5 p-6   bg-[url('/bg.svg')]">
+      <main className="flex flex-col my-28 justify-center items-center gap-5 p-6   bg-[url('/bg.svg')]">
         <div>
           <img
             className='w-[140px] rounded-full'
-            src='./sagar-2.jpg'
+            src='./sagar-6.png'
           />
         </div>
         <div className='flex flex-col justify-center items-center text-center gap-1 '>
