@@ -130,7 +130,7 @@ export default function Home() {
               src='./scripai-logo.png'
             />
             <div className='flex justify-center gap-1 flex-col'>
-              <h3 className='font-semibold'>ScripAI</h3>
+              <h3 className='font-semibold'>ScripAI (acquired)</h3>
               <p className='text-[8px] leading-3'>
                 FREE 100+ AI copy-tools for marketers and content creators. save
                 $30-$60/month on copyai & jasper
