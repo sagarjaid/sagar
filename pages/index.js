@@ -67,7 +67,7 @@ export default function Home() {
           content='OZcQv8cI2bp_N6Uq0pBaX5LoGZ44JJtwQZo1iVCLPig'
         />
       </Head>
-      <main className="flex flex-col my-28 justify-center items-center gap-5 p-6   bg-[url('/bg.svg')]">
+      <main className="flex flex-col my-10 justify-center items-center gap-5 p-6   bg-[url('/bg.svg')]">
         <div>
           <img
             className='w-[140px] rounded-full'
@@ -208,8 +208,13 @@ export default function Home() {
             show more
           </a> */}
         </div>
-        <a
-          href='https://www.linkedin.com/in/sagarjaid/'
+
+          <div className='flex flex-col justify-center items-center text-center gap-2 '>
+          <h2 className='text-sm'> 
+            Book a Meeting
+          </h2>
+           <a
+          href='https://calendar.app.google/uDWByWQxJEeKBToH9'
           target='_blank'
           className='p-2 bg-slate-100 rounded-full'>
           <img
@@ -217,6 +222,8 @@ export default function Home() {
             src='./gmail.png'
           />
         </a>
+          </div>
+      
       </main>
     </>
   );
