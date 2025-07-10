@@ -77,7 +77,7 @@ export default function Home() {
         <div className='flex flex-col justify-center items-center text-center gap-1 '>
           <h1 className='text-2xl font-extrabold'>Sagar Jaid</h1>
           <h2>
-            Software Engineer
+            Software Project Manager
           </h2>
           <div className='flex justify-center gap-4 mt-1 items-center'>
             <a
