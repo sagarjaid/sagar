@@ -120,6 +120,25 @@ export default function Home() {
               src='./link.svg'
             />
           </a>
+            <a
+            href='https://getaipm.com'
+            target='_blank'
+            className='flex gap-1.5 bg-white justify-around items-center max-w-sm border hover:border-gray-400 rounded-md shadow-sm p-2'>
+            <img
+              className='w-16 h-16 grayscale'
+              src='./aipm.png'
+            />
+            <div className='flex justify-center gap-1 flex-col'>
+              <h3 className='font-semibold'>AI Scrum Master</h3>
+              <p className='text-[8px] leading-3'>
+                Vertical AI Scrum Master that runs your daily standup & update jira, just like human.
+              </p>
+            </div>
+            <img
+              className='w-10 h-10 p-0.5 hover:scale-105'
+              src='./link.svg'
+            />
+          </a>
           <a
             href='http://scripai.com/'
             target='_blank'
@@ -146,7 +165,7 @@ export default function Home() {
             className='flex gap-1.5 bg-white justify-around items-center max-w-sm border hover:border-gray-400 rounded-md shadow-sm p-2'>
             <img
               className='w-16 h-16'
-              src='./careerdekho-logo.png'
+              src='./careerdekhoaicom.png'
             />
             <div className='flex justify-center gap-1 flex-col'>
               <h3 className='font-semibold'>CareerdekhoAI</h3>
