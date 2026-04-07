@@ -77,7 +77,7 @@ export default function Home() {
         <div className='flex flex-col justify-center items-center text-center gap-1 '>
           <h1 className='text-2xl font-extrabold'>Sagar Jaid</h1>
           <h2>
-            Software Project Manager
+            A Curious Generalist
           </h2>
           <div className='flex justify-center gap-4 mt-1 items-center'>
             <a
@@ -121,17 +121,16 @@ export default function Home() {
             />
           </a>
             <a
-            href='https://getaipm.com'
+            href='https://aiforjr.com'
             target='_blank'
             className='flex gap-1.5 bg-white justify-around items-center max-w-sm border hover:border-gray-400 rounded-md shadow-sm p-2'>
             <img
-              className='w-16 h-16 grayscale'
-              src='./aipm.png'
+              className='w-16 h-16'
+              src='./aiforjrcom.png'
             />
             <div className='flex justify-center gap-1 flex-col'>
-              <h3 className='font-semibold'>AI Scrum Master</h3>
-              <p className='text-[8px] leading-3'>
-                Vertical AI Scrum Master that runs your daily standup & update jira, just like human.
+              <h3 className='font-semibold'>AIForJr</h3>
+              <p className='text-[8px] leading-3'>1:1 Personalized AI Tutor for every kid, one that actully adapts to their pace.
               </p>
             </div>
             <img
