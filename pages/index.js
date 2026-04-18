@@ -75,9 +75,12 @@ export default function Home() {
           />
         </div>
         <div className='flex flex-col justify-center items-center text-center gap-1 '>
-          <h1 className='text-2xl font-extrabold'>Sagar Jaid</h1>
+          <h1 className='text-2xl font-extrabold'>SAGAR JAID</h1>
           <h2>
             A Curious Generalist
+          </h2>
+            <h2 className='text-gray-700 text-sm my-1'>
+            Relentless clarity, Progress everyday
           </h2>
           <div className='flex justify-center gap-4 mt-1 items-center'>
             <a
